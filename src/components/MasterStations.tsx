@@ -3,10 +3,18 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
+import fotoJoaco from "../../public/foto-joaco.png";
+import fotoMalu from "../../public/foto-malu.png";
+import fotoMeli from "../../public/foto-meli.png";
+import fotoYuli from "../../public/foto-yuli.png";
+import fotoRodri from "../../public/foto-rodri.png";
+import fotoMarian from "../../public/foto-marian.png";
+import fotoQuimey from "../../public/foto-quimey.png";
+
 const masters = [
     { 
         name: "Joaquin Alterman", 
-        image: "/foto-joaco.png", 
+        image: fotoJoaco, 
         position: "object-top",
         role: "NODRIZA",
         title: "Propósito y Arquitectura del Camino.", 
@@ -14,7 +22,7 @@ const masters = [
     },
     { 
         name: "Malu Miranda", 
-        image: "/foto-malu.png", 
+        image: fotoMalu, 
         position: "object-center",
         role: "ALTO RENDIMIENTO CONSCIENTE",
         title: "Rendimiento sostenido desde coherencia y presencia", 
@@ -22,7 +30,7 @@ const masters = [
     },
     { 
         name: "Melisa Rodriguez", 
-        image: "/foto-meli.png", 
+        image: fotoMeli, 
         position: "object-top",
         role: "ARQUITECTURA DE REALIDADES",
         title: "Diseñar una realidad alineada con quien realmente eres", 
@@ -30,7 +38,7 @@ const masters = [
     },
     { 
         name: "Yuli Melian", 
-        image: "/foto-yuli.png", 
+        image: fotoYuli, 
         position: "object-center",
         role: "HUMANFLOW",
         title: "El cuerpo como portal para recordar quién eres", 
@@ -38,7 +46,7 @@ const masters = [
     },
     { 
         name: "Rodrigo Ariel Nuñez", 
-        image: "/foto-rodri.png", 
+        image: fotoRodri, 
         position: "object-center",
         role: "EMPRENDIZAJE",
         title: "Asumir la abundancia y liderar tu propia vida financiera", 
@@ -46,7 +54,7 @@ const masters = [
     },
     { 
         name: "Mariángeles García", 
-        image: "/foto-marian.png", 
+        image: fotoMarian, 
         position: "object-center",
         role: "YUNO",
         title: "Estratega de Branding | Mentora de Marcas", 
@@ -54,7 +62,7 @@ const masters = [
     },
     { 
         name: "Quimey Morando", 
-        image: "/foto-quimey.png", 
+        image: fotoQuimey, 
         position: "object-center",
         role: "FUSIÓN CIBER-ESPIRITUAL",
         title: "Tecnología e Inteligencia Artificial", 
