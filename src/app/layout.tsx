@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import FacebookPixel from "@/components/analytics/FacebookPixel";
+import localFont from "next/font/local";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -11,6 +12,11 @@ const inter = Inter({
 const outfit = Outfit({
   variable: "--font-outfit",
   subsets: ["latin"],
+});
+
+const belriner = localFont({
+  src: "../../public/Belriner-lxxl0.otf",
+  variable: "--font-belriner",
 });
 
 export const metadata: Metadata = {
@@ -48,7 +54,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${inter.variable} ${outfit.variable} antialiased`}
+        className={`${inter.variable} ${outfit.variable} ${belriner.variable} antialiased`}
       >
         <FacebookPixel />
         {children}

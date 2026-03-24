@@ -18,6 +18,7 @@
 
   --font-sans: var(--font-inter);
   --font-heading: var(--font-outfit);
+  --font-belriner: var(--font-belriner);
 }
 
 :root {
