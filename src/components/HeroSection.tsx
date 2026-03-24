@@ -19,20 +19,20 @@ export default function HeroSection() {
             <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,rgba(200,153,51,0.03)_0%,transparent_80%)] pointer-events-none" />
 
             <div className="relative z-10 w-full max-w-4xl mx-auto flex flex-col items-center justify-center">
-                {/* Logo textual premium - Ajustado para móvil */}
-                <div className="mb-10 md:mb-16 flex flex-col items-center px-2">
-                    <span className="font-heading text-[2.6rem] sm:text-6xl md:text-8xl lg:text-[7.5rem] font-black text-white tracking-tighter drop-shadow-2xl leading-[0.9] text-center">
+                {/* Logo textual premium - Escalas originales compactas */}
+                <div className="mb-6 md:mb-10 flex flex-col items-center px-2">
+                    <span className="font-heading text-4xl sm:text-6xl md:text-7xl lg:text-[7rem] font-black text-white tracking-tighter drop-shadow-2xl leading-[0.9] text-center uppercase">
                         TIERRA DORADA
                     </span>
-                    <span className="font-serif text-xl sm:text-3xl md:text-5xl text-gold italic font-light tracking-[0.2em] mt-3 md:mt-6 opacity-100 drop-shadow-[0_0_15px_rgba(200,153,51,0.9)] drop-shadow-[0_0_35px_rgba(200,153,51,0.6)]">
+                    <span className="font-serif text-xl sm:text-2xl md:text-3xl lg:text-4xl text-gold italic font-light tracking-[0.2em] mt-2 md:mt-4 opacity-100 drop-shadow-[0_0_15px_rgba(200,153,51,0.9)] drop-shadow-[0_0_35px_rgba(200,153,51,0.6)]">
                         Comunidad
                     </span>
                 </div>
 
-                {/* Description Card - Optimizada para móvil */}
-                <div className="relative mb-12 p-6 sm:p-10 md:p-12 rounded-[2rem] bg-white/[0.03] backdrop-blur-xl border border-white/10 shadow-xl max-w-4xl mx-auto overflow-hidden group text-center mx-2 sm:mx-0">
+                {/* Description Card - Ceñida al copy */}
+                <div className="relative mb-8 p-6 md:px-10 md:py-8 rounded-[1.5rem] bg-white/[0.03] backdrop-blur-xl border border-white/10 shadow-xl max-w-3xl mx-auto overflow-hidden group text-center mx-4 sm:mx-0">
                     <div className="absolute inset-0 bg-gold/5 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
-                    <p className="font-sans text-base sm:text-lg md:text-xl text-white leading-relaxed font-bold drop-shadow-md relative z-10 px-0 sm:px-8">
+                    <p className="font-sans text-base sm:text-lg md:text-xl text-white leading-relaxed font-bold drop-shadow-md relative z-10">
                         Únete gratis a la comunidad de Tierra Dorada en Skool y aprende a estructurar tu don, compartir tu medicina y crear un proyecto con propósito junto a una tribu que camina en la misma dirección.
                     </p>
                 </div>
