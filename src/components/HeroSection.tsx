@@ -9,7 +9,7 @@ export default function HeroSection() {
             
             {/* Imagen de Fondo "Red de Nodos" con sus colores originales */}
             <div 
-                className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-60 pointer-events-none"
+                className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-30 pointer-events-none"
                 style={{ 
                     backgroundImage: "url('/comunidad/Red-de-nodos.jpeg')" 
                 }}
@@ -43,7 +43,7 @@ export default function HeroSection() {
                         TIERRA DORADA
                     </span>
                     {/* El logo se ha movido a la esquina superior izquierda */}
-                    <span className="font-serif text-lg sm:text-xl md:text-2xl lg:text-3xl text-gold italic font-light tracking-[0.2em] opacity-100 drop-shadow-[0_0_15px_rgba(200,153,51,0.9)] drop-shadow-[0_0_35px_rgba(200,153,51,0.6)] mt-2 md:mt-4">
+                    <span className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gold italic font-semibold tracking-[0.2em] drop-shadow-[0_0_15px_rgba(200,153,51,0.8)] mt-4 md:mt-6 select-none">
                         Comunidad
                     </span>
                 </div>
