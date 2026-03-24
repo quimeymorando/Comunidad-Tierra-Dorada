@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="w-full bg-footer text-lino py-6 px-4 sm:px-6 relative overflow-hidden flex flex-col items-center">
+        <footer className="w-full bg-azul-tierra text-lino py-6 px-4 sm:px-6 relative overflow-hidden flex flex-col items-center border-t border-gold/5">
             <div className="max-w-4xl mx-auto flex flex-col items-center justify-center text-center gap-2">
                 <h3 className="font-heading text-lg md:text-xl font-bold tracking-widest text-white/90">
                     TIERRA DORADA

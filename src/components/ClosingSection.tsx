@@ -1,63 +1,22 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
 
 export default function ClosingSection() {
-    const [isMounted, setIsMounted] = useState(false);
-    const [skyStars, setSkyStars] = useState<any[]>([]);
-
-    useEffect(() => {
-        const generateStars = (count: number) => {
-            const stars = [];
-            for (let i = 0; i < count; i++) {
-                const top = (Math.random() * 100).toFixed(2) + "%";
-                const left = (Math.random() * 100).toFixed(2) + "%";
-                const rand = Math.random();
-                const size = rand > 0.95 ? 3 : rand > 0.8 ? 2 : 1;
-                const delay = Math.random() * 5;
-                const duration = 2 + Math.random() * 4;
-
-                stars.push({ top, left, size, delay, duration });
-            }
-            return stars;
-        };
-
-        setSkyStars(generateStars(80));
-        setIsMounted(true);
-    }, []);
-
     return (
         <section className="relative w-full py-24 md:py-32 px-5 bg-[#050A1F] text-white flex flex-col items-center justify-center overflow-hidden border-t border-gold/10">
 
-            {/* Cielo estrellado idéntico al Hero */}
-            <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-                {isMounted && skyStars.map((star, i) => (
-                    <motion.div
-                        key={i}
-                        animate={{
-                            opacity: [0.1, 0.8, 0.1],
-                            scale: [1, 1.2, 1],
-                        }}
-                        transition={{
-                            duration: star.duration,
-                            repeat: Infinity,
-                            delay: star.delay,
-                            ease: "easeInOut",
-                        }}
-                        className="absolute rounded-full bg-white"
-                        style={{
-                            top: star.top,
-                            left: star.left,
-                            width: `${star.size}px`,
-                            height: `${star.size}px`,
-                            boxShadow: star.size > 1 ? '0 0 4px 1px rgba(255,255,255,0.3)' : 'none'
-                        }}
-                    />
-                ))}
-            </div>
-
-            <div className="absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_top,rgba(200,153,51,0.15)_0%,transparent_70%)] pointer-events-none" />
+            {/* Imagen de Fondo "Red de Nodos" con sus colores originales */}
+            <div 
+                className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-40 pointer-events-none"
+                style={{ 
+                    backgroundImage: "url('/comunidad/Red-de-nodos.jpeg')" 
+                }}
+            />
+            
+            {/* Capas de degradado sutiles para legibilidad */}
+            <div className="absolute inset-0 z-0 bg-gradient-to-b from-[#050A1F]/80 via-transparent to-[#050A1F] pointer-events-none" />
+            <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,rgba(200,153,51,0.05)_0%,transparent_80%)] pointer-events-none" />
 
             <div className="relative z-10 max-w-4xl mx-auto text-center flex flex-col items-center">
                 <motion.p
@@ -67,7 +26,8 @@ export default function ClosingSection() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                 >
-                    Tu propósito es la medicina que el mundo necesita. Tierra Dorada es el respaldo que esperabas para dejar de dudar.
+                    Tu propósito es la medicina que el mundo necesita. <br className="hidden sm:block" />
+                    Tierra Dorada es el respaldo que esperabas para dejar de dudar.
                 </motion.p>
                 
                 <motion.h2
