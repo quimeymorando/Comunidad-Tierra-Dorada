@@ -131,12 +131,12 @@ export default function MasterStations() {
                                 </div>
 
                                 {/* Contenido de texto editorial */}
-                                <div className="w-full md:w-7/12 lg:w-1/2 flex flex-col items-start text-left">
+                                <div className="w-full md:w-7/12 lg:w-1/2 flex flex-col items-center text-center md:items-start md:text-left">
                                     <span className="inline-block px-4 py-1.5 bg-gold/10 text-gold text-xs sm:text-sm font-bold uppercase tracking-widest rounded-full mb-4 md:mb-6 border border-gold/20 shadow-sm">
                                         {master.role}
                                     </span>
                                     
-                                    <h3 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-2 md:mb-4 tracking-tight drop-shadow-md">
+                                    <h3 className="font-heading text-[2.2rem] leading-tight sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-2 md:mb-4 tracking-tight drop-shadow-md">
                                         {master.name}
                                     </h3>
                                     
@@ -144,7 +144,7 @@ export default function MasterStations() {
                                         {master.title}
                                     </h4>
                                     
-                                    <p className="font-sans text-base sm:text-lg md:text-xl text-white/70 leading-relaxed md:leading-loose font-light max-w-xl">
+                                    <p className="font-sans text-base sm:text-lg md:text-[1.1rem] md:leading-relaxed text-white/70 leading-relaxed font-light max-w-xl">
                                         {master.description}
                                     </p>
                                 </div>
