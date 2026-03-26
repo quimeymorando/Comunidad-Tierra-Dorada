@@ -7,7 +7,6 @@ import fotoJoaco from "../../public/foto-joaco.png";
 import fotoMalu from "../../public/foto-malu.jpeg";
 import fotoMeli from "../../public/foto-melisa.jpeg";
 import fotoYuli from "../../public/foto-yuli.jpeg";
-import fotoRodri from "../../public/foto-rodrigo.jpeg";
 import fotoMarian from "../../public/foto-mariangeles.jpeg";
 import fotoQuimey from "../../public/foto-quimey.png";
 import fotoBarbra from "../../public/foto-barbra.jpeg";
@@ -44,14 +43,6 @@ const masters = [
         role: "HUMANFLOW",
         title: "El cuerpo como portal para recordar quién eres", 
         description: "El CUERPO es el portal. El MOVIMIENTO, la llave. La NATURALEZA, el sostén. Hola soy Yuli Melian y guio espacios donde la energía se eleva, la frecuencia se ordena y tu diseño humano se activa desde la experiencia viva. No se trata de entender… sino de SENTIR, habitar y recordarnos quienes SOMOS." 
-    },
-    { 
-        name: "Rodrigo Ariel Nuñez", 
-        image: fotoRodri, 
-        position: "object-center",
-        role: "EMPRENDIZAJE",
-        title: "Asumir la abundancia y liderar tu propia vida financiera", 
-        description: "Ayudo a las personas a asumir su abundancia. Transformando su relacion con el dinero, el emprendimiento y los negocios. El pilar fundamental esta basado en aceptar, perdonar y amar a mama y papa. Agradecer todo lo que he tenido y asumirme desde el creador de mi propia realidad. Tomar la rienda financiera de mi vida, es pasar de adolecer la vida a ser un hombre/mujer adulta y responsable." 
     },
     { 
         name: "Mariángeles García", 
