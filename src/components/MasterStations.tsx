@@ -4,12 +4,13 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 import fotoJoaco from "../../public/foto-joaco.png";
-import fotoMalu from "../../public/foto-malu.png";
-import fotoMeli from "../../public/foto-meli.png";
-import fotoYuli from "../../public/foto-yuli.png";
-import fotoRodri from "../../public/foto-rodri.png";
-import fotoMarian from "../../public/foto-marian.png";
+import fotoMalu from "../../public/foto-malu.jpeg";
+import fotoMeli from "../../public/foto-melisa.jpeg";
+import fotoYuli from "../../public/foto-yuli.jpeg";
+import fotoRodri from "../../public/foto-rodrigo.jpeg";
+import fotoMarian from "../../public/foto-mariangeles.jpeg";
 import fotoQuimey from "../../public/foto-quimey.png";
+import fotoBarbra from "../../public/foto-barbra.jpeg";
 
 const masters = [
     { 
@@ -67,6 +68,14 @@ const masters = [
         role: "FUSIÓN CIBER-ESPIRITUAL",
         title: "Tecnología e Inteligencia Artificial", 
         description: "La tecnología avanza cada vez más rápido, y muchas veces puede sentirse lejana, confusa o incluso intimidante. Sin embargo, cuando aprendemos a relacionarnos con ella de forma simple, se convierte en una gran aliada para crear, trabajar y compartir lo que tenemos para ofrecer. Acompaño a personas que quieren empezar a utilizar herramientas de inteligencia artificial sin sentirse perdidas en el proceso. Desde lo más básico hasta aplicaciones más avanzadas, el objetivo es que la tecnología deje de ser un obstáculo y se transforme en una herramienta a tu favor. En esta estación exploramos cómo amigarnos con la IA y usarla de forma práctica para potenciar nuestras ideas, simplificar tareas y abrir nuevas posibilidades para nuestros proyectos." 
+    },
+    {
+        name: "Barbra Podestá",
+        image: fotoBarbra,
+        position: "object-top",
+        role: "EMPERATRIZ",
+        title: "Astróloga y Alquimista",
+        description: "Traduzco el lenguaje de los astros y lo bajo a la Tierra. Leo el cielo en tiempo real y guío mi vida a través de las energías del Universo. Formo seres para que puedan comprender, traducir y aprovechar el cielo tanto como lo hago yo. Me especializo en QUIRÓN, la herida del alma, acompañándote a tomar conciencia y liberar memorias de dolor."
     }
 ];
 
