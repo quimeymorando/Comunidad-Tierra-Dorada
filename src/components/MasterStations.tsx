@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 import fotoJoaco from "../../public/foto-joaco.png";
-import fotoMalu from "../../public/foto-malu.jpeg";
 import fotoMeli from "../../public/foto-melisa.jpeg";
 import fotoYuli from "../../public/foto-yuli.jpeg";
 import fotoMarian from "../../public/foto-mariangeles.jpeg";
@@ -19,14 +18,6 @@ const masters = [
         role: "NODRIZA",
         title: "Propósito y Arquitectura del Camino.", 
         description: "Durante muchos años busqué respuestas desde la mente. Me formé como ingeniero, creyendo que si entendía lo suficiente podría ordenar la vida. Con el tiempo descubrí que lo esencial no se resuelve solo pensando, sino aprendiendo a escucharse con honestidad. Hoy acompaño a personas que sienten que hay algo dentro suyo que quiere tomar forma en el mundo: una idea, un proyecto, una forma de servir. Muchas veces ese impulso está ahí, pero falta claridad, dirección o una estructura que permita sostenerlo. En esta estación trabajamos justamente en eso: reconocer lo que tu alma quiere crear y empezar a construir la nave que pueda llevarlo a la realidad. No se trata de encajar en un camino existente, sino de empezar a navegar uno propio." 
-    },
-    { 
-        name: "Malu Miranda", 
-        image: fotoMalu, 
-        position: "object-center",
-        role: "ALTO RENDIMIENTO CONSCIENTE",
-        title: "Rendimiento sostenido desde coherencia y presencia", 
-        description: "Acompaño a líderes y emprendedores que funcionan hacia afuera pero que en silencio sienten que se perdieron a sí mismos en el camino. Lo hago a través de Semillas Sagradas, mi método propio que integra neurociencia, PNL y espiritualidad aplicada. Desde ahí trabajamos para salir del piloto automático y construir un liderazgo desde coherencia interna real. En este proceso se llevan claridad sobre quiénes son más allá de sus roles, herramientas para gestionar el sistema nervioso bajo presión y una nueva forma de sostener resultados — sin perderse en el proceso." 
     },
     { 
         name: "Melisa Rodriguez", 
